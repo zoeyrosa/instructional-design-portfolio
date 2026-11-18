@@ -1,0 +1,25 @@
+{
+  "eyebrow": "My Approach",
+  "headline": "A flexible process. A clear learning purpose.",
+  "introduction": "I use ADDIE to guide analysis and alignment, and Agile practices to iterate with stakeholders and incorporate feedback. The right process depends on the organization, timeline, and learner needs.",
+  "phases": [
+    {
+      "title": "Discover",
+      "description": "Explore the performance challenge, audience, context, constraints, and measures of success."
+    },
+    {
+      "title": "Design",
+      "description": "Map objectives to practice, feedback, assessment, and the learner journey."
+    },
+    {
+      "title": "Develop & Collaborate",
+      "description": "Build prototypes and drafts; coordinate reviews and document decisions."
+    },
+    {
+      "title": "Deliver & Improve",
+      "description": "Launch, gather feedback, and iterate based on observable results."
+    }
+  ],
+  "tools_heading": "Tools & Collaboration",
+  "tools_body": "Example tools to highlight: Articulate Rise 360, Microsoft Planner, Monday.com, Jira requests, and Confluence. Edit this list to match the tools you personally used in each project."
+}

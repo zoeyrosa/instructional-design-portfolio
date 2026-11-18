@@ -1,0 +1,16 @@
+{
+  "slug": "leadership",
+  "order": 3,
+  "featured": true,
+  "category": "Leadership & Process",
+  "title": "ID Leadership & Process Improvement",
+  "summary": "Thoughtful workflows, stakeholder communication, and iterative collaboration.",
+  "image": "/assets/sample-leadership.jpg",
+  "challenge": "Outline a coordination, timeline, quality, or workflow challenge you helped address.",
+  "design_process": "Describe your leadership role, stakeholder alignment, task management, and how the team iterated.",
+  "deliverables": "Show a sanitized workflow, project plan, review checklist, or process improvement summary.",
+  "outcomes": "Explain measurable results if available, or give supported qualitative evidence of improvement.",
+  "tools": "Examples to consider where applicable: Microsoft Planner, Monday.com, Jira, and Confluence.",
+  "sample": true,
+  "external_url": ""
+}

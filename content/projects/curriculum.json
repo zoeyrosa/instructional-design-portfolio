@@ -1,0 +1,16 @@
+{
+  "slug": "curriculum",
+  "order": 2,
+  "featured": true,
+  "category": "Program Design",
+  "title": "Curriculum & Program Design",
+  "summary": "Structured learning pathways that connect audience needs and performance goals.",
+  "image": "/assets/sample-curriculum.jpg",
+  "challenge": "Explain the organizational or learner need that prompted the curriculum.",
+  "design_process": "Show how you sequenced content, selected modalities, and worked with subject matter experts.",
+  "deliverables": "Show a curriculum map, facilitator guide, job aids, or assessment plan, where sharing is permitted.",
+  "outcomes": "Include verified feedback or evaluation findings, or describe what was measured.",
+  "tools": "Identify tools and collaboration methods used in this project.",
+  "sample": true,
+  "external_url": ""
+}

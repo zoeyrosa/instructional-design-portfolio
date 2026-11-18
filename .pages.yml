@@ -1,0 +1,123 @@
+media:
+  input: assets/uploads
+  output: /assets/uploads
+  rename: safe
+settings:
+  content:
+    merge: true
+content:
+  - name: site
+    label: Site Settings
+    type: file
+    path: content/site.json
+    operations:
+      delete: false
+    fields:
+      - { name: name, label: Name and credentials, type: string }
+      - { name: brand_subtitle, label: Brand subtitle, type: string }
+      - { name: email, label: Professional email, type: string }
+      - { name: linkedin_url, label: LinkedIn URL, type: string }
+      - { name: resume_url, label: Résumé file URL, type: string }
+      - { name: footer_note, label: Footer note, type: string }
+  - name: home
+    label: Homepage
+    type: file
+    path: content/home.json
+    operations:
+      delete: false
+    fields:
+      - { name: eyebrow, label: Small headline, type: string }
+      - { name: headline_line_one, label: Headline line 1, type: string }
+      - { name: headline_line_two, label: Headline line 2, type: string }
+      - { name: headline_emphasis, label: Teal emphasis, type: string }
+      - { name: introduction, label: Introduction, type: text }
+      - { name: portrait, label: Professional headshot, type: image }
+      - { name: work_intro, label: Project section introduction, type: text }
+      - name: strengths
+        label: Key strengths
+        type: string
+        list: true
+  - name: about
+    label: About Page
+    type: file
+    path: content/about.json
+    operations:
+      delete: false
+    fields:
+      - { name: eyebrow, type: string }
+      - { name: headline, type: string }
+      - { name: introduction, type: text }
+      - { name: experience_heading, type: string }
+      - { name: experience_body, type: text }
+      - { name: leadership_heading, type: string }
+      - { name: leadership_body, type: text }
+      - name: focus_points
+        label: Focus areas
+        type: string
+        list: true
+  - name: approach
+    label: My Approach Page
+    type: file
+    path: content/approach.json
+    operations:
+      delete: false
+    fields:
+      - { name: eyebrow, type: string }
+      - { name: headline, type: string }
+      - { name: introduction, type: text }
+      - name: phases
+        label: Process steps
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - { name: title, type: string }
+          - { name: description, type: text }
+      - { name: tools_heading, type: string }
+      - { name: tools_body, type: text }
+  - name: contact
+    label: Contact Page
+    type: file
+    path: content/contact.json
+    operations:
+      delete: false
+    fields:
+      - { name: eyebrow, type: string }
+      - { name: headline, type: string }
+      - { name: introduction, type: text }
+      - { name: note, type: text }
+  - name: resume
+    label: Résumé Page
+    type: file
+    path: content/resume.json
+    operations:
+      delete: false
+    fields:
+      - { name: eyebrow, type: string }
+      - { name: headline, type: string }
+      - { name: introduction, type: text }
+      - { name: note, type: text }
+  - name: projects
+    label: Portfolio Case Studies
+    type: collection
+    path: content/projects
+    format: json
+    view:
+      fields: [title, category, featured]
+    fields:
+      - { name: slug, label: URL slug, type: string, pattern: "^[a-z0-9-]+$" }
+      - { name: order, label: Display order, type: number }
+      - { name: featured, label: Feature on homepage, type: boolean }
+      - { name: sample, label: "Sample placeholder?", type: boolean, description: "Turn off after replacing with a real project." }
+      - { name: category, type: string }
+      - { name: title, type: string }
+      - { name: summary, type: text }
+      - { name: image, label: Case study image, type: image }
+      - { name: challenge, label: Challenge, type: text }
+      - { name: design_process, label: Design process, type: text }
+      - { name: deliverables, label: Solution and deliverables, type: text }
+      - { name: outcomes, label: Results and evidence, type: text }
+      - { name: tools, label: Tools and collaboration, type: text }
+      - { name: external_url, label: Optional live demo URL, type: string }

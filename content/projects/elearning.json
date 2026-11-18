@@ -1,0 +1,16 @@
+{
+  "slug": "elearning",
+  "order": 1,
+  "featured": true,
+  "category": "Learning Experience Design",
+  "title": "eLearning Development",
+  "summary": "Interactive learning that connects clear objectives, relevant practice, and meaningful assessment.",
+  "image": "/assets/sample-elearning.jpg",
+  "challenge": "Replace this example with a real learner or performance challenge from a project you can share.",
+  "design_process": "Describe your analysis, learning objectives, design decisions, reviews, and tools (for example, Rise 360).",
+  "deliverables": "Add approved screenshots, storyboards, course links, or a short walkthrough.",
+  "outcomes": "Add only outcomes or evidence you can verify. If metrics are confidential, explain what was evaluated instead.",
+  "tools": "Add tools used in the actual project.",
+  "sample": true,
+  "external_url": ""
+}
